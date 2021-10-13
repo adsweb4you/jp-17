@@ -1,0 +1,54 @@
+@font-face {
+    font-family: BPG Nino;
+    src: url('../fonts/bpg_nino_mtavruli_bold.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+h1{
+   color:#110ebe;
+   font-family: BPG Nino;
+   font-size: 25px;
+   text-align: center;
+   text-decoration: line-through;
+   text-shadow: 2px 2px 6px #110ebe;
+   line-height: 1.2;
+   letter-spacing: 3px;
+   width: 300px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+
+}
+
+#heads {
+    color: blue;
+}
+
+
+.texttransform{
+    font-family: 'Ephesis', cursive;
+    text-transform: capitalize;
+}
+ 
+
+button{
+   border: none;
+   background-color: transparent;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.gre{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
