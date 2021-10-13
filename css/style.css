@@ -3,10 +3,12 @@
     src: url('../fonts/bpg_nino_mtavruli_bold.ttf');
 }
 
+ 
+
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 
 h1{
-   color:#110ebe;
+   color:#fff;
    font-family: BPG Nino;
    font-size: 25px;
    text-align: center;
@@ -14,10 +16,10 @@ h1{
    text-shadow: 2px 2px 6px #110ebe;
    line-height: 1.2;
    letter-spacing: 3px;
-   width: 300px;
-   overflow: hidden;
+   /* width: 300px; */
+   /* overflow: hidden;
    text-overflow: ellipsis;
-   white-space: nowrap;
+   white-space: nowrap; */
 
 }
 
@@ -51,4 +53,16 @@ button{
 
 .yellow{
     background-color: yellow;
+}
+
+.homehader{
+    background-color: #110ebe;
+    /* background: linear-gradient(90deg, rgba(4,9,15,1) 16%, rgba(37,16,177,1) 78%); */
+    background-image: url('../img/sta-je-html.jpg');
+    height: 400px;
+}
+
+.sm{
+     text-align: center;
+     background: linear-gradient(90deg, rgba(4,9,15,1) 16%, rgba(37,16,177,1) 78%);
 }
