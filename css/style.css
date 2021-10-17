@@ -40,7 +40,7 @@ button{
 }
 
 .red{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.233);
 }
 
 .blue{
@@ -60,6 +60,11 @@ button{
     /* background: linear-gradient(90deg, rgba(4,9,15,1) 16%, rgba(37,16,177,1) 78%); */
     background-image: url('../img/sta-je-html.jpg');
     height: 400px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+    background-attachment: fixed;
+
 }
 
 .sm{
