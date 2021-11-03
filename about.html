@@ -5,11 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        a{
+    display: inline-block;
+    margin-right: 20px;
+    color: black;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navs h1{
+    float: left;
+    color: white;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.topnav{
+    padding-bottom: 320px;
+    background-image: url(https://wallpaperaccess.com/full/284466.jpg);
+
+}
+.navs a:hover{
+    background-color: aqua;
+}
+p{
+    text-align: center;
+    margin-top: 50px;
+}
+.note h1{
+    float: left;
+    color: white;
+    padding-left: 360px;
+    padding-top: 80px;   
+    color: black;
+    font-family: cursive;
+    font-size: 80px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#name{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 415px;
+}
+label{
+    font-size: large;
+    color: gray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#Email{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 415px;
+}
+.Emails{
+    margin-top: 30px;
+}
+.Messages{
+    margin-top: 30px;
+}
+#Message{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 250px;  
+}
+.Button{
+    margin-top: 40px;
+    padding: 15px 90px;
+    background-color: turquoise;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+textarea{
+    resize: vertical;
+    width: 415px;
+}
+.Name{
+    margin-top: 30px;
+}
+body{
+    margin: 0;
+}
+    </style>
 </head>
 <body>
-    
-<a href="img/sta-je-html.jpg" target="_blank" download>უკან დაბრუნება</a>
-    <h1>ჩვენ შესახებ</h1>
+    <div class="topnav">
+        <div class="navs">
+        <h1><strong>DELUXE</strong></h1>
+        <a href="">Contacts</a>
+        <a href="">Rooms</a>
+        <a href="">Restaurant</a>
+        <a href="">About</a>
+        <a href="">Blog</a>
+        <a href="">Home</a>   
+        </div>
+        <div class="note">
+            <h1>Send Us Notes</h1>
+        </div>
+    </div>
+    <div class="inputs">
+        <form action=""> 
+        <div class="Name">
+        <label>Your name*</label><br>
+        <input type="text" id="name"><br>
+        </div>
+        <div class="Emails">
+        <label>Your Email Adress*</label><br>
+        <input type="text" id="Email"><br>            
+        </div>
+        <div class="Messages">
+        <label>Message*</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button class="Button">Send Message</button>
+    </form>
+    </div>
 
 </body>
 </html>

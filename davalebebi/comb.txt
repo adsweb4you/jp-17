@@ -1,0 +1,4 @@
+1) https://res.cloudinary.com/practicaldev/image/fetch/s--lzHc0OXp--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/5v24w2z9snckthx1n655.png
+2) https://bashooka.com/wp-content/uploads/2015/12/css-card-ui-demos-3.jpg
+
+რესურსი https://webschool.ge/html/1422

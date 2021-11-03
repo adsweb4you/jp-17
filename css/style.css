@@ -9,6 +9,9 @@
 
 body{
     margin: 0;
+    height: 18000px;
+ 
+ 
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
@@ -69,6 +72,9 @@ button{
     background-repeat:no-repeat;
     background-size: cover;
     background-position: 50% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-attachment: fixed;
 
 }
@@ -92,8 +98,7 @@ h1{
 }
 
 .card{
-    width: 350px;
-    margin: 50px auto;
+
     box-shadow: 3px 8px 17px #cccccca3;
     border-radius: 8px;
 }
@@ -126,4 +131,169 @@ h1{
     border-width: 1px;
     text-align: center;
     border:1px solid #ccc;
+}
+
+.content{
+    width: 1100px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col{
+    padding: 0 15px;
+    margin-top: 30px;
+    width: 33.3333333%;
+}
+
+ .flexrow{
+     display: flex;
+ }
+
+ .inline-block{
+     display: inline-block;
+ }
+
+ .inline-block a{
+   text-decoration: 0;
+   margin: 0 7px;
+   color: #fff;
+   font-family: BPG Nino;
+ } 
+
+ nav{
+     background-color: chartreuse;
+ }
+
+ nav ul{
+     margin-left: auto;
+ }
+
+ .card{
+     position: relative;
+ }
+
+ .time{
+     position: absolute;
+     padding: 17px;
+     background-color: green;
+     left: 0;
+ }
+
+ /* nav{
+     position: fixed;
+     width: 100%;
+     z-index: 10;
+ } */
+
+ .styck{
+     position: sticky;
+     top: 0;
+     background-color: #110ebe;
+     height: 30px;
+ }
+
+ .vv{
+     height: 550px;
+ }
+
+ .mycard{
+     width: 30%;
+     margin: 0 auto;
+     height: 400px;
+     background-color: rgb(22, 20, 17);
+     transition: all .6s;
+     background-image: url('../img/logo.png');
+
+ }
+
+/* მოუსის მიტანა ელემენტზე */
+ .mycard:hover{
+    height:600px;
+    background-color: rgb(9, 255, 50);
+    border-radius: 50px;
+    background-image: url('../img/sta-je-html.jpg');
+ }
+
+ /* კურსორის  შეტანა ინფუთში  (მარტო ინფუთი)*/
+ .sms:focus{
+    height:66px;
+    background-color: rgb(9, 255, 50);
+ }
+
+ 
+ /* კლიკის დროს */
+.fc:active{
+    background-color: red;
+}
+ 
+ /*  მონახულებული ლინკი (a ტეგი)*/
+a:visited{
+    color: green;
+}
+
+
+ /*  select კლასის შიგნით არსებულ ყველა p ტეგს ასელექტებს*/
+.select  p{
+    color: red;
+  
+}
+
+ /*  select კლასის შიგნით არსებულ უშუალო შვილობილ  p ტეგს ასელექტებს*/
+ .select > p{
+    color: green;
+}
+
+
+ /*  select კლასის შემგომ (ქვედა მეზობელ) h1   ასელექტებს პირველივეს*/
+.select + h1{
+    background-color: #110ebe;
+}
+
+ /*  select კლასის შემგომ (ქვედა მეზობელ) h1   ასელექტებს ყველა*/
+ .select ~ h1{
+    background-color: #110ebe;
+}
+
+.mycards{
+    width: 400px;
+    background-color: antiquewhite;
+   
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.mycards:hover{
+    box-shadow: 7px 7px 4px #000;
+} 
+
+.mycards span {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    right: 10px;
+    top: 10px;
+}
+
+.rel{
+    position: relative;
+}
+
+.phot{
+    position: absolute;
+    background-color: black;
+    color: #fff;
+    bottom: 0px;
 }
