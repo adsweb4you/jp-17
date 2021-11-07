@@ -9,7 +9,8 @@
 
 body{
     margin: 0;
-    height: 18000px;
+ 
+ 
  
  
 }
@@ -296,4 +297,104 @@ img{
     background-color: black;
     color: #fff;
     bottom: 0px;
+}
+
+/* pseudo element */
+
+.pselement{
+    width: 500px;
+    margin: auto;
+}
+
+.myp:not(.reds){
+    font-size: 25px;
+}
+
+.myp:first-child{
+    color: red;
+}
+
+.myp:last-child{
+    color: red;
+}
+
+.myp:nth-child(2){
+    color: green;
+}
+
+
+.myp:nth-child(odd){
+    background-color: indigo;
+}
+ 
+
+.myp:nth-child(even){
+    background-color: rgb(8, 11, 29);
+}
+
+input[name="test"]:checked  + p{
+
+    background-color: green;
+
+}
+
+
+footer{
+    height: 200px;
+  
+    width: 100%;
+    bottom: 0;
+    background-color: #110ebe;
+}
+
+.input-group{
+    position: relative;
+    display: flex;
+}
+
+  .btn:hover{
+  background-color: aqua;
+}
+
+  input:hover{
+   border:1px solid aqua;
+  }
+
+.input-group input + label {
+    position: absolute;
+    top: 16%;
+    left: 15px;
+    pointer-events: none;
+}
+
+.input-group input:focus + label{
+    position: absolute;
+    top: -40%;
+    background-color: #110ebe;
+}
+
+.pars{
+    width: 400px;
+    margin:50px  auto;
+
+}
+
+input{
+    padding: 11px;
+    border-radius:  10px 0  0 10px;
+    border: 2px solid #ccc;
+    border-right: 0;
+}
+
+.btn {
+    
+    background-color: #110ebe;
+    color: #fff;
+    padding: 11px;
+    border-radius: 0 10px 10px 0;
+
+}
+
+:focus{
+    outline: 0;
 }
