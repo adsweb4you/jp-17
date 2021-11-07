@@ -395,6 +395,49 @@ input{
 
 }
 
+
+
 :focus{
     outline: 0;
 }
+
+/* resposnive */
+
+ 
+/* ეშვება 800px ქვევით */
+@media (max-width:900px){
+
+    .col {
+        
+        width: 50%;
+    }
+
+}
+
+
+@media (max-width:500px){
+
+    .col {
+        
+        width: 100%;
+    }
+
+}
+
+
+/* ეშვება 1500px ზევით */
+@media print and (min-width:1500px){
+
+.media{
+    color: red;
+}
+    
+    
+    }
+/* დიაპაზონი 800 დან 1500 მდე */
+    @media (min-width:800px) and (max-width:1500px){
+
+body{
+    background-color: rgb(255, 1, 1);
+}
+  }
