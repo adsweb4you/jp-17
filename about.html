@@ -4,131 +4,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        a{
-    display: inline-block;
-    margin-right: 20px;
-    color: black;
-    float: right;
-    margin-right: 30px;
-    margin-top: 30px;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 20px;
-}
-.navs h1{
-    float: left;
-    color: white;
-    margin-left: 60px;
-    margin-top: 30px;
-    font-size: 50px;
-}
-
-.topnav{
-    padding-bottom: 320px;
-    background-image: url(https://wallpaperaccess.com/full/284466.jpg);
-
-}
-.navs a:hover{
-    background-color: aqua;
-}
-p{
-    text-align: center;
-    margin-top: 50px;
-}
-.note h1{
-    float: left;
-    color: white;
-    padding-left: 360px;
-    padding-top: 80px;   
-    color: black;
-    font-family: cursive;
-    font-size: 80px;
-}
-.inputs{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#name{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 415px;
-}
-label{
-    font-size: large;
-    color: gray;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-#Email{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 415px;
-}
-.Emails{
-    margin-top: 30px;
-}
-.Messages{
-    margin-top: 30px;
-}
-#Message{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 250px;  
-}
-.Button{
-    margin-top: 40px;
-    padding: 15px 90px;
-    background-color: turquoise;
-    border-style: none;
-    border-radius: 10px;
-    font-size: 20px;
-    color: white;
-}
-textarea{
-    resize: vertical;
-    width: 415px;
-}
-.Name{
-    margin-top: 30px;
+ 
+     <style>
+         *{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     margin: 0;
 }
-    </style>
+nav{
+    background-color: #1C2B4C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-img{
+    filter: invert(1);
+    width: 150px;
+}
+.nav-ul-li{
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.nav-ul-li-a{
+    text-decoration: none;
+    color: white;
+}
+.body-div{
+    background: linear-gradient(90deg, rgba(42,57,88,0.5) 0%, rgba(42,57,88,1) 100%), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.comicbook.com%2F2019%2F08%2Fjojos-bizarre-adventure-meme-1185222.jpeg%3Fauto%3Dwebp%26width%3D696%26height%3D394%26crop%3D696%3A394%2Csmart&f=1&nofb=1");
+    background-size: cover;
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+.body-div-h3{
+    margin-top: 0;
+    color: white;
+    font-size: 25px;
+}
+.body-div-h1{
+    font-size: 50px;
+    color: white;
+    margin-block-end: 0;
+}
+.body-div-hr, .body-div3-hr{
+    color: #3D8C87;
+    border: none;
+    background-color: #3D8C87;
+    margin-block-start: 0;
+    margin-block-end: 40px;
+    width: 200px;
+    height: 5px;
+}
+.body-div-button1{
+    background-color: #5BC0DE;
+    margin-right: 20px;
+    color: white;
+    border-radius: 4px;
+    height: 40px;
+    width: 150px;
+    border: none;
+}
+.body-div-button2{
+    background-color: #5BB95B;
+    color: white;
+    margin-left: 20px;
+    border-radius: 4px;
+    height: 40px;
+    width: 150px;
+    border: none;
+}
+.body-div2{
+    background-color: #E9E9E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.body-div2-h2{
+    color: #1A5E57;
+    text-align: center;
+}
+.body-div3{
+    text-align: center;
+}
+.body-div3-body{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+@media (max-width:540px){
+    .body-div3-body{
+        flex-wrap: wrap;
+    }
+    .body-div2{
+        height: 75px;
+    }
+    .body-div-button1{
+        margin-right: 5px;
+    }
+    .body-div-button2{
+        margin-left: 5px;
+    }
+}
+     </style>
+    <title></title>
 </head>
 <body>
-    <div class="topnav">
-        <div class="navs">
-        <h1><strong>DELUXE</strong></h1>
-        <a href="">Contacts</a>
-        <a href="">Rooms</a>
-        <a href="">Restaurant</a>
-        <a href="">About</a>
-        <a href="">Blog</a>
-        <a href="">Home</a>   
-        </div>
-        <div class="note">
-            <h1>Send Us Notes</h1>
-        </div>
+    <nav>
+        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.carlogos.org%2Flogo%2FFerrari-text-logo-1920x1080.png&f=1&nofb=1" alt="logo" class="nav-img">
+        <ul class="nav-ul">
+            <li class="nav-ul-li"><a href="" class="nav-ul-li-a">HOME</a></li>
+            <li class="nav-ul-li"><a href="" class="nav-ul-li-a">FEATURES</a></li>
+            <li class="nav-ul-li"><a href="" class="nav-ul-li-a">FACULTY</a></li>
+            <li class="nav-ul-li"><a href="" class="nav-ul-li-a">COURSES</a></li>
+            <li class="nav-ul-li"><a href="" class="nav-ul-li-a">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="body-div">
+        <h3 class="body-div-h3">
+            DELIVERING QUALITY EDUCATION
+        </h3>
+        <h1 class="body-div-h1">
+            THE UNIQUE METHOD
+        </h1>
+        <hr class="body-div-hr">
+        <button class="body-div-button1">GET AWESOME</button>
+        <button class="body-div-button2">FEATURE LIST</button>
     </div>
-    <div class="inputs">
-        <form action=""> 
-        <div class="Name">
-        <label>Your name*</label><br>
-        <input type="text" id="name"><br>
+    <div class="body-div2">
+        <h2 class="body-div2-h2">WELCOME TO THE EDU-CENTER</h2>
+    </div>
+    <div class="body-div3">
+        <h2 class="body-div3-h2">FEATURES</h2>
+        <hr class="body-div3-hr">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum accusantium doloremque dolores, hic temporibus omnis aperiam,<br> id iusto perferendis at eum tenetur quia alias debitis. Et ea nemo vel illo.</p>
+        <div class="body-div3-body">
+            <h1>
+                QUALITY EDUCATION
+            </h1>
+            <h1>
+                SYSTEMATIC APPROACH
+            </h1>
+            <h1>
+                ONE TO ONE STUDY
+            </h1>
         </div>
-        <div class="Emails">
-        <label>Your Email Adress*</label><br>
-        <input type="text" id="Email"><br>            
-        </div>
-        <div class="Messages">
-        <label>Message*</label><br>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        </div>
-        <button class="Button">Send Message</button>
-    </form>
     </div>
 
 </body>
