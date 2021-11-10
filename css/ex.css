@@ -86,3 +86,60 @@ header.home::before{
     text-align: center;
     padding: 9px;
 }
+
+.animate{
+    width: 400px;
+    height: 400px;
+    background-color: chocolate;
+    position: relative;
+ 
+}
+
+.animate:hover{
+ 
+    animation-name: colors;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    /* animation-delay: 5s; */
+    animation-direction: alternate;
+}
+
+@keyframes colors {
+    0%{
+     background-color: red;
+     left: 10%;
+    }
+
+    50%{
+        background-color: chartreuse;
+        left: 50%;
+    }
+
+    100%{
+   background-color: blue;
+   left: 80%;
+    }
+}
+
+.anih{
+    display: block;
+    margin:50px auto;
+    text-align: center;
+    color: crimson;
+    animation-name: heart;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: .6s;
+    animation-direction: alternate;
+}
+
+@keyframes heart {
+    0%{
+      transform: scale(1);
+    }
+
+    100%{
+     transform: scale(1.5);
+    }
+}
